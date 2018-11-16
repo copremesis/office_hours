@@ -1,4 +1,4 @@
-require '/Users/robertortiz/ahl/engineering/pdflib/hours_parser/lib/compress_hours.rb'
+require File.join(Dir.pwd, 'compress_hours.rb')
 
 class OfficeHours
   def initialize
